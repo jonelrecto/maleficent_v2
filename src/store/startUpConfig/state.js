@@ -1,0 +1,31 @@
+
+export default {
+  userLoggedIn: {},
+  registeredModels: [],
+  events: [],
+  courses: [],
+  schedules: [],
+  contractSigned: [],
+  colorOpt: [
+  	{ label: 'Pastel Pink', value: 'pastelpink', icon: 'label', leftColor: 'pink-3', visible: true},
+  	{ label: 'Pastel Red', value: 'pastelred', icon: 'label', leftColor: 'red-3', visible: true},
+  	{ label: 'Pastel Purple', value: 'pastelpurple', icon: 'label', leftColor: 'purple-3', visible: true},
+  	{ label: 'Pastel Lavender', value: 'pastellavender', icon: 'label', leftColor: 'purple-4', visible: true},
+  	{ label: 'Pastel Orange', value: 'pastelorange', icon: 'label', leftColor: 'orange-4', visible: true},
+  	{ label: 'Pastel Yellow', value: 'pastelyellow', icon: 'label', leftColor: 'yellow-4', visible: true},
+  	{ label: 'Pastel Green', value: 'pastelgreen', icon: 'label', leftColor: 'light-green-4', visible: true},
+    { label: 'Pastel Blue', value: 'pastelblue', icon: 'label', leftColor: 'cyan-3', visible: true},
+    { label: 'Shades of Gray', value: 'shadesofgray', icon: 'label', leftColor: 'grey-5', visible: true},
+    { label: 'Shades of Green', value: 'shadesofgreen', icon: 'label', leftColor: 'green-8', visible: true},
+    { label: 'Shades of Blue', value: 'shadesofblue', icon: 'label', leftColor: 'teal-5', visible: true},
+    { label: 'Shades of Pink', value: 'shadesofpink', icon: 'label', leftColor: 'pink-6', visible: true},
+    { label: 'Dark Purple', value: 'darkpurple', icon: 'label', leftColor: 'deep-purple-5', visible: true},
+    { label: 'Lime Green', value: 'limegreen', icon: 'label', leftColor: 'light-green-14', visible: true},
+    { label: 'Olive', value: 'olive', icon: 'label', leftColor: 'green-8', visible: true},
+    { label: 'Salad Yellow', value: 'saladyellow', icon: 'label', leftColor: 'amber-6', visible: true},
+    { label: 'Yellow', value: 'yellow', icon: 'label', leftColor: 'warning', visible: true},
+    { label: 'White Blue', value: 'whiteblue', icon: 'label', leftColor: 'light-blue-4', visible: true},
+    { label: 'Orange', value: 'orange', icon: 'label', leftColor: 'orange-5', visible: true},
+    { label: 'Pink', value: 'pink', icon: 'label', leftColor: 'pink', visible: true}
+  ],
+}
